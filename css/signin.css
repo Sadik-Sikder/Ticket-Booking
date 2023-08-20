@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.sign-in-container {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 380px;
+  text-align: center;
+}
+
+.sign-in {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.error-message {
+  color: #FE4545;
+  font-size: 18px;
+  margin: 15px 0;
+  background-color: #f9d1d1;
+  padding: 10px;
+  border-radius: 5px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus {
+  border-color: #007bff;
+  background-color: #fff;
+  outline: none;
+}
+
+.password-container {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #27ae60;
+}
+
+.sign-up {
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+}
+
+.sign-up a {
+  color: #007bff;
+  text-decoration: none;
+}
